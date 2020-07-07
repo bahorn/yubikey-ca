@@ -1,0 +1,4 @@
+#!/bin/sh
+cd /home/a/Documents/code/oss/yubikey-ca
+. .venv/bin/activate
+python yubikey-ca $@
