@@ -1,4 +1,4 @@
 #!/bin/sh
-cd /home/a/Documents/code/oss/yubikey-ca
+cd `dirname $0`
 . .venv/bin/activate
 python yubikey-ca $@
